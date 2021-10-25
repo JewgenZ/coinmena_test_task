@@ -23,7 +23,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "django_celery_beat",  # Local apps
+    "django_celery_beat",
+    # Local apps
     "core.apps.CoreConfig",
     "shared.apps.SharedConfig",
 ]
